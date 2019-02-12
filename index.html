@@ -1,0 +1,29 @@
+<html>
+   <head>
+     <meta charset="utf-8"/>
+      <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/card.css">
+      <script src="assets/js/app.js"></script>
+      <title>Canopuz</title>
+   </head>
+   <body>
+      <div class="bg">
+        <img src="assets/img/stars.png" class="flashit">
+         <div class="content">
+            <img src="assets/img/logo.png" alt="Canopuz" class="logo">
+            <form onsubmit="search()" method="POST" class="center-form">
+               <input type="text" name="location" id="location" placeholder="Enter your location"><br>
+               <input type="text" name="category" id="category" placeholder="Any category preference?"><br>
+               <input type="submit" value="Ready!" class="ready-button">
+            </form>
+         </div>
+
+         <div class='card' id="card">
+           <p class='card-title' id="card-title">New York</p>
+           <p class='card-category' id="card-category">Pub</p>
+         </div>
+      </div>
+   </body>
+</html>

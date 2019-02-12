@@ -1,0 +1,19 @@
+.card{
+  height: 40em;
+  width: 30em;
+  background-color: rgba(255,255,255,1);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+  position: absolute;
+  border-radius: 20px;
+  z-index: 3000;
+  display: none;
+}
+
+.card-title{
+  font-size: 4em;
+  color: black;
+}
+.card-category{
+  font-size: 2em;
+  color: black;
+}

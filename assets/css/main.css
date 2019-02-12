@@ -1,0 +1,73 @@
+ body, html {
+   height: 100%;
+   margin: 0;
+   color: white;
+   font-family: 'Raleway', sans-serif;
+ }
+ .bg {
+   /* The image used */
+   background-image: url("../img/bg-wout-stars.png");
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* Full height */
+   height: 100%;
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .logo{
+   height: 25em;
+   width: 25em;
+ }
+ input{
+   border-radius: 20px;
+   height: 3em;
+   width: 30em;
+   margin-bottom: 20px;
+   border: none;
+   background-color: rgba(255,255,255,0.7);
+   color: white !important;
+ }
+ ::placeholder {
+   color: white;
+   opacity: 1; /* Firefox */
+   padding: 40px;
+ }
+ .ready-button{
+   font-family: 'Carter One', cursive;
+   background-color: #ff3268;
+   box-shadow: 0 4px #f22f63;
+ }
+ .ready-button:active {
+   box-shadow: box-shadow: 0 0px #f22f63;
+   transform: translateY(4px);
+ }
+
+ .content{
+     z-index: 1000;
+ }
+
+/* Flash class and keyframe animation */
+.flashit{
+  color:#f2f;
+  -webkit-animation: flash linear 3s infinite;
+  animation: flash linear 3s infinite;
+
+  /* The image used */
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
